@@ -1,0 +1,19 @@
+GET http://localhost:3001/todos
+ 
+###
+
+ 
+POST http://localhost:3001/todo/new
+Content-Type:  application/json
+
+{
+    "text": "i will do it and i am on the right way to make my dreams true"
+}
+
+###
+
+delete  http://localhost:3001/todo/delete/6419d83bb022263864f93f46
+
+###
+
+put  http://localhost:3001/todo/complete/6416ea657c854f8b2bbcb2e3
